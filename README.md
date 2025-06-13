@@ -39,6 +39,38 @@ cp .env.example .env
 
 2. Edit `.env` if needed (default values should work fine)
 
+## Usage Examples
+
+### Basic Usage: AI Safety Research Summary
+
+The EA Forum MCP Server can help you quickly gather and summarize content on specific topics. Here's an example of searching for AI Safety posts from the last month:
+
+![AI Safety Search Example 1](images/example_basic_usage_1_image_1.png)
+
+The server uses multiple tools to search, filter by date, and retrieve full post content to generate comprehensive summaries:
+
+![AI Safety Summary Output](images/example_basic_usage_1_image_2.png)
+
+### Advanced Usage 1: Creating Content Based on EA Forum Research
+
+You can use the server to research existing content and create new posts inspired by successful formats. This example shows creating an "Animal Welfare 2024" review based on the LessWrong AI safety review format:
+
+![Animal Welfare Research Example](images/example_advanced_usage_1_image_1.png)
+
+The result is a well-structured post with insights gathered from multiple EA Forum sources:
+
+![Animal Welfare Review Output](images/example_advanced_usage_1_image_2.png)
+
+### Advanced Usage 2: Hackathon Proposal Enhancement
+
+The server can help strengthen project proposals by finding relevant research and evidence from the EA Forum. Here's an example of enhancing a mental health chatbot red teaming proposal:
+
+![Hackathon Proposal Research](images/example_advanced_usage_2_image_1.png)
+
+The server finds relevant posts about AI safety evaluation, mental health interventions, and regulatory frameworks to create a comprehensive proposal:
+
+![Enhanced Hackathon Proposal](images/example_advanced_usage_2_image_2.png)
+
 ## Usage
 
 ### Running the Server
@@ -218,4 +250,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - EA Forum
-- Max from the Even More Effective Team ❤️
+- Max from the [Even More Effective Team](https://even-more-effective.github.io) ❤️
+
+![Even More Effective](images/even-more-effective.png)
