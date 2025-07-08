@@ -76,7 +76,7 @@ The server finds relevant posts about AI safety evaluation, mental health interv
 To consume the service via an HTTP connection, run the following command from the project's root directory:
 
 ```Bash
-python -m src.httpService
+python -m src.httpServer
 ```
 Once the service is running, you can use any tool you prefer to create a client for the MCP. Here is an example using LangChain and LangGraph:
 
